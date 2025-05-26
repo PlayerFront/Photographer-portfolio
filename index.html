@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Photographer</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" href="img/favicon.ico">
+	<script src="https://kit.fontawesome.com/8edc9aafb6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<input type="checkbox" id="theme-toggler" class="theme-toggler">
+	<label for="theme-toggler" class="theme-toggler-label">
+		<i class="fa-solid fa-sun"></i>
+		<i class="fa-solid fa-moon"></i>
+		Cменить тему
+	</label>
+	<nav class="nav-bar">
+		<input type="checkbox" id="nav-bar__burger" class="nav-bar__burger">
+		<label for="nav-bar__burger" class="nav-bar__label">
+			<i class="fa-solid fa-clone"></i>
+			Меню
+		</label>
+		<div class="burger-body">
+			<a href="#header" class="burger-body__item">Главная</a>
+			<a href="#services" class="burger-body__item">Услуги</a>
+			<a href="#about" class="burger-body__item">О нас</a>
+			<a href="#footer" class="burger-body__item">Контакты</a>
+		</div>
+	</nav>
+	<header class="header" id="header">
+		<img src="img/header1.png" class="header__image" alt="фотоаппарат рядом с цветком">
+		<img src="img/header2.png" class="header__image" alt="фото внутри волны">
+		<img src="img/header3.png" class="header__image" alt="тропический пейзаж">
+		<h1 class="header__title">Фотограф на заказ</h1>
+	</header>
+	<main>
+		<section class="services" id="services">
+			<ul class="services__cards">
+				<li class="services__card-item">
+					<img class="services__card-front" src="img/services-landscape.png">
+					<h2 class="services__card-back">Лендскейп фото</h2>
+				</li>
+				<li class="services__card-item">
+					<img class="services__card-front" src="img/services_portrait.png">
+					<h2 class="services__card-back">Портреты</h2>
+				</li>
+				<li class="services__card-item">
+					<img class="services__card-front" src="img/services_macro.png">
+					<h2 class="services__card-back">Макросъемка</h2>
+				</li>
+				<li class="services__card-item">
+					<img class="services__card-front" src="img/services_mono.png">
+					<h2 class="services__card-back">Черно-белая фотография</h2>
+				</li>
+			</ul>
+		</section>
+		<section class="about" id="about">
+			<ul class="about__cards">
+				<li class="about__card-item">
+					<img class="about__card-img" src="img/about__logo.png">
+					<h2 class="about__card-title">Низкие цены</h2>
+				</li>
+				<li class="about__card-item">
+					<img class="about__card-img" src="img/about__logo (1).png">
+					<h2 class="about__card-title">10 лет опыта</h2>
+				</li>
+				<li class="about__card-item">
+					<img class="about__card-img" src="img/about__gallery.png">
+				</li>
+				<li class="about__card-item">
+					<img class="about__card-img" src="img/about__skydiver.png">
+				</li>
+				<li class="about__card-item">
+					<img class="about__card-img" src="img/about__logo (2).png">
+					<h2 class="about__card-title">Участник фотовыставок</h2>
+				</li>
+				<li class="about__card-item">
+					<img class="about__card-img" src="img/about__money.png">
+				</li>
+			</ul>
+		</section>
+	</main>
+	<footer class="footer" id="footer">
+		<div class="footer__content">
+			<div class="footer__contacts">
+				<h2 class="footer__contact-title">Контакты</h2>
+				<ul class="footer__contact-list">
+					<li>8-929-929-020212</li>
+					<li>pochta@mail.zum</li>
+					<li>@insta-gr-phot</li>
+				</ul>
+			</div>
+			<div class="footer__license">
+				ПростоФотоКомпани 2018
+			</div>
+			<div class="footer__payment">
+				<p class="footer__payment-title">Доступны любые методы оплаты</p>
+				<ul class="footer__payment-list">
+					<li>Visa/MC</li>
+					<li>Юмани</li>
+					<li>PayPal</li>
+					<li>СБП</li>
+				</ul>
+			</div>
+			<div class="footer__partners">
+				<h2 class="footer__partners-title">Наши партнеры</h2>
+				<ul class="footer__partners-list">
+					<li>Фото-техника.маг</li>
+					<li>АвиаЛейс (билеты со скидкой)</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>
