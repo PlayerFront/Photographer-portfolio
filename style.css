@@ -453,13 +453,23 @@ footer {
         flex-direction: column;
         padding: 0px;
     }
+    
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .footer__content {
-        grid-template-areas: "contacts" "payment" "licence" "partners";
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(4fr, 300px);
-        grid-auto-rows: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         height: fit-content;
         text-align: center;
     }
+    .footer__license {
+        order:4;
+    }
+
 
 }
